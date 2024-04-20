@@ -1,0 +1,29 @@
+git config --global user.email "wilsonpuac@gmail.com"
+git config --global user.name "Wilson"
+
+
+--revisar configuracion--
+git config --list
+
+
+--iniciar git--
+git.init
+git status
+git add <fileName> agregar file al stage
+git diff 
+git reset HEAD <fileName> remover file del stage
+git commit -m "segundo commit"
+
+--regresar al commit previo--
+git checkout .
+
+--historico de versiones--
+git log
+
+--subir todo a github--
+git push -u origin master
+
+branches
+git branch <name>
+git checkout <name>
+git merge <name>
